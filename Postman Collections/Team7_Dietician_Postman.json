@@ -940,7 +940,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "\r\n    {\r\n    \"ContactNumber\": \"5932680812\",\r\n    \"DateOfBirth\": \"1913-07-26T18:14:08.570Z\",\r\n    \"Education\": \"BBDS\",\r\n    \"Email\": \"Dieticiancreation286@gmail.com\",\r\n    \"Firstname\": \"Gopi\",\r\n    \"HospitalCity\": \"jersey\",\r\n    \"HospitalName\": \"Hackensack\",\r\n    \"HospitalPincode\": \"073061\",\r\n    \"HospitalStreet\": \"elm\",\r\n    \"Lastname\": \"ven\"\r\n}",
+							"raw": "\r\n    {\r\n    \"ContactNumber\": \"5932880807\",\r\n    \"DateOfBirth\": \"1913-07-26T18:14:08.570Z\",\r\n    \"Education\": \"BBDS\",\r\n    \"Email\": \"old10@gmail.com\",\r\n    \"Firstname\": \"Gopi\",\r\n    \"HospitalCity\": \"jersey\",\r\n    \"HospitalName\": \"Hackensack\",\r\n    \"HospitalPincode\": \"073061\",\r\n    \"HospitalStreet\": \"elm\",\r\n    \"Lastname\": \"ven\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -986,7 +986,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"password\": \"Iron21\",\r\n  \"userLoginEmail\": \"sanityTesting@gmail.com\"\r\n}\r\n ",
+							"raw": "{\r\n  \"password\": \"{{Dietician_Login_Password}}\",\r\n  \"userLoginEmail\": \"{{Dietician_Email}}\"\r\n}\r\n ",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1104,7 +1104,7 @@
 								},
 								{
 									"key": "patientInfo",
-									"value": "{ \n\"FirstName\": \"postman\",\n\"LastName\": \"geeks\",\n\"ContactNumber\": \"9069516576\",\n\"Email\": \"abc219@gmail.com\",\n\"Allergy\": \"Soy\",\n\"FoodPreference\": \"Vegan\",\n\"CuisineCategory\":\"Indian\",\n\"DateOfBirth\": \"1997-02-14\"\n}\n\n\n",
+									"value": "{ \n\"FirstName\": \"postman\",\n\"LastName\": \"geeks\",\n\"ContactNumber\": \"9060519576\",\n\"Email\": \"abc271@gmail.com\",\n\"Allergy\": \"Soy\",\n\"FoodPreference\": \"Vegan\",\n\"CuisineCategory\":\"Indian\",\n\"DateOfBirth\": \"1997-02-14\"\n}\n\n\n",
 									"type": "text",
 									"contentType": ""
 								}
