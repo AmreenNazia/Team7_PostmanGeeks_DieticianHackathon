@@ -504,7 +504,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "\r\n    {\r\n    \"ContactNumber\": \"6038493184\",\r\n    \"DateOfBirth\": \"1932-07-26T18:14:08.570Z\",\r\n    \"Education\": \"BBDS\",\r\n    \"Email\": \"Dieticiancreation771@gmail.com\",\r\n    \"Firstname\": \"Gopi\",\r\n    \"HospitalCity\": \"jersey\",\r\n    \"HospitalName\": \"Hackensack\",\r\n    \"HospitalPincode\": \"073061\",\r\n    \"HospitalStreet\": \"elm\",\r\n    \"Lastname\": \"ven\"\r\n}",
+							"raw": "\r\n    {\r\n    \"ContactNumber\": \"6038493189\",\r\n    \"DateOfBirth\": \"1932-07-26T18:14:08.570Z\",\r\n    \"Education\": \"BBDS\",\r\n    \"Email\": \"Dieticiancreation771@gmail.com\",\r\n    \"Firstname\": \"Gopi\",\r\n    \"HospitalCity\": \"jersey\",\r\n    \"HospitalName\": \"Hackensack\",\r\n    \"HospitalPincode\": \"073061\",\r\n    \"HospitalStreet\": \"elm\",\r\n    \"Lastname\": \"ven\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -740,7 +740,7 @@
 						},
 						"method": "DELETE",
 						"header": [],
-						"url": "{{BaseURL}}dietician/2770"
+						"url": "{{BaseURL}}dietician/3490"
 					},
 					"response": []
 				},
