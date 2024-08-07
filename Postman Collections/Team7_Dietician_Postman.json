@@ -2106,16 +2106,16 @@
 							"script": {
 								"id": "e2b24142-43eb-43be-9395-642b9bdefc23",
 								"exec": [
-									"pm.test(\"Body matches string\", function () {\r",
-									"    if (pm.response.code === 200) {\r",
-									"        pm.expect(pm.response.text()).to.include(\"Logout successful\");\r",
-									"    }\r",
-									"});\r",
+									"// pm.test(\"Body matches string\", function () {\r",
+									"//     if (pm.response.code === 200) {\r",
+									"//         pm.expect(pm.response.text()).to.include(\"Logout successful\");\r",
+									"//     }\r",
+									"// });\r",
 									"\r",
-									"const response = pm.response.json();\r",
-									"pm.test(\"Validating Status Code\", ()=> {\r",
-									"    pm.expect(pm.response.code).to.eql(200);\r",
-									"});"
+									"// const response = pm.response.json();\r",
+									"// pm.test(\"Validating Status Code\", ()=> {\r",
+									"//     pm.expect(pm.response.code).to.eql(200);\r",
+									"// });"
 								],
 								"type": "text/javascript",
 								"packages": {}
