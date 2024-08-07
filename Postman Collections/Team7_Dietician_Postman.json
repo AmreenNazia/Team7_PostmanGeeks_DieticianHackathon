@@ -2142,7 +2142,7 @@
 								"disabled": true
 							}
 						],
-						"url": "{{BaseURL}}logoutdietician"
+						"url": "{{BaseURL}}logoutpatient"
 					},
 					"response": []
 				}
