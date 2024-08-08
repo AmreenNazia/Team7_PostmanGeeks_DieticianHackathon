@@ -139,7 +139,7 @@
                   "statusCode": 404
                },
                {
-                  "Endpoint": "morbidity/{{morbidityName}}",
+                  "Endpoint": "morbidity/T3",
                   "statusCode": 200
                }
             ]
@@ -148,10 +148,10 @@
             "name": "CreateDietician",
             "data": [
                {
-                  "ContactNumber": "1198288193",
-                  "DateOfBirth": "1982-07-06T18:14:08.570Z",
+                  "ContactNumber": "1198288133",
+                  "DateOfBirth": "1983-07-06T18:14:08.570Z",
                   "Education": "ABDS",
-                  "Email": "emai100@gmail.com",
+                  "Email": "hackhaton01@gmail.com",
                   "Firstname": "",
                   "HospitalCity": "jersey",
                   "HospitalName": "Hackensack",
@@ -318,16 +318,30 @@
                   "statusCode": 404
                },
                {
-                  "ContactNumber": "1908895005",
-                  "DateOfBirth": "1930-07-06T18:14:08.570Z",
+                  "ContactNumber": "3121950878",
+                  "DateOfBirth": "1987-07-06T18:14:08.570Z",
                   "Education": "ABDS",
-                  "Email": "asdf59@gmail.com",
-                  "Firstname": "Gopi",
-                  "HospitalCity": "jersey",
+                  "Email": "mno@gmail.com",
+                  "Firstname": "James",
+                  "HospitalCity": "Bond",
                   "HospitalName": "Hackensack",
                   "HospitalPincode": "073061",
                   "HospitalStreet": "elm",
                   "Lastname": "ven",
+                  "Endpoint": "dietician",
+                  "statusCode": 201
+               },
+               {
+               "ContactNumber": "9866868820",
+                  "DateOfBirth": "1992-07-06T18:14:08.570Z",
+                  "Education": "ABDS",
+                  "Email": "po@gmail.com",
+                  "Firstname": "Mchandu",
+                  "HospitalCity": "jersey",
+                  "HospitalName": "Hackensack",
+                  "HospitalPincode": "073061",
+                  "HospitalStreet": "elm",
+                  "Lastname": "Tvensekh",
                   "Endpoint": "dietician",
                   "statusCode": 201
                }
@@ -351,12 +365,12 @@
                   "statusCode": 404
                },
                {
-                  "ContactNumber": "1198288180",
+                  "ContactNumber": "1198298180",
                   "DateOfBirth": "1982-07-06T18:14:08.570Z",
                   "Education": "ABDS",
-                  "Email": "emai712@gmail.com",
-                  "Firstname": "Gopi",
-                  "HospitalCity": "jersey",
+                  "Email": "postman123@gmail.com",
+                  "Firstname": "James",
+                  "HospitalCity": "Bond",
                   "HospitalName": "HackensackNorth",
                   "HospitalPincode": "073062",
                   "HospitalStreet": "elm",
@@ -406,24 +420,19 @@
             ]
          },
          {
-            "name": "CreateDietician_2",
+            "name": "Delete Dietician2",
             "data": [
                {
-                  "ContactNumber": "1198242380",
-                  "DateOfBirth": "1963-07-06T18:14:08.570Z",
-                  "Education": "ABDS",
-                  "Email": "geeks123@gmail.com",
-                  "Firstname": "Tchandu",
-                  "HospitalCity": "jersey",
-                  "HospitalName": "Hackensack",
-                  "HospitalPincode": "073061",
-                  "HospitalStreet": "elm",
-                  "Lastname": "vensekh",
-                  "Endpoint": "dietician",
-                  "statusCode": 201
+                  "Endpoint": "dietician/{{InvalidDietician_Id}}",
+                  "statusCode": 404
+               },
+               {
+                  "Endpoint": "dietician/{{Dietician2_Id}}",
+                  "statusCode": 200
                }
             ]
          },
+          
          {
             "name": "Dietician Login",
             "data": [
@@ -439,7 +448,7 @@
                {
                   "p_FirstName": "",
                   "p_Lastname": "Sambu",
-                  "p_ContactNumber": "1234509872",
+                  "p_ContactNumber": "1234599872",
                   "p_Email": "umasambu01@yahoo.com",
                   "p_Allergy": "ALMOND",
                   "p_FoodPreferences": "Vegetarian",
@@ -801,17 +810,32 @@
                   "file": ""
                },
                {
-                  "p_FirstName": "Uma",
-                  "p_Lastname": "Sambu",
-                  "p_ContactNumber": "1234122985",
-                  "p_Email": "umasambu51@yahoo.com",
+                  "p_FirstName": "Joe",
+                  "p_Lastname": "lsambu",
+                  "p_ContactNumber": "8908664985",
+                  "p_Email": "www@yahoo.com",
                   "p_Allergy": "ALMOND",
                   "p_FoodPreferences": "Vegetarian",
                   "p_CuisineCatergory": "South Indian",
-                  "p_DateOfBirth": "1988-06-20",
+                  "p_DateOfBirth": "1993-07-20",
                   "Endpoint": "patient",
                   "statusCode": 201,
-                  "file": "Diabetic and Hemogram Test_Thyrocare lab01.pdf"
+                  "file": "Diabetic and Hemogram Test_Thyrocare lab01.pdf",
+                  "patientid01":"patientid_01"
+               },
+               {
+                  "p_FirstName": "Jo",
+                  "p_Lastname": "Doc",
+                  "p_ContactNumber": "9991231994",
+                  "p_Email": "kk@yahoo.com",
+                  "p_Allergy": "ALMOND",
+                  "p_FoodPreferences": "Vegetarian",
+                  "p_CuisineCatergory": "South Indian",
+                  "p_DateOfBirth": "2002-06-20",
+                  "Endpoint": "patient",
+                  "statusCode": 201,
+                  "file": "Diabetic and Hemogram Test_Thyrocare lab01.pdf",
+                  "patientid02":"patientid_02"
                }
             ]
          },
@@ -842,23 +866,20 @@
             ]
          },
          {
-            "name": "Create Patient_2",
+            "name": "Delete patient2",
             "data": [
                {
-                  "p_FirstName": "Api",
-                  "p_Lastname": "Geek",
-                  "p_ContactNumber": "2342342345",
-                  "p_Email": "apigeeks01@yahoo.com",
-                  "p_Allergy": "ALMOND",
-                  "p_FoodPreferences": "Vegetarian",
-                  "p_CuisineCatergory": "South Indian",
-                  "p_DateOfBirth": "1985-06-20",
-                  "Endpoint": "patient",
-                  "statusCode": 201,
-                  "file": "Diabetic and Hemogram Test_Thyrocare lab01.pdf"
+                  "Endpoint": ":patient/{{InvalidPatient_Id}}",
+                  "statusCode": 404
+               },
+               {
+                  "Endpoint": "patient/{{patient2_id}}",
+                  "statusCode": 200
                }
             ]
          },
+
+          
          {
             "name": "Patient login",
             "data": [
@@ -1096,12 +1117,12 @@
                {
                   "updateFirstName": "patientDeb",
                   "updateLastName": "Team7",
-                  "updateContactNumber": "9830909883",
-                  "updateEmail": "patientDeb106@gmail.com",
+                  "updateContactNumber": "5994987783",
+                  "updateEmail": "pp@gmail.com",
                   "updateAllergy": "Soy",
                   "updateFoodPreference": "Vegan",
                   "updateCuisineCategory": "indian",
-                  "updateDateOfBirth": "1990-02-24",
+                  "updateDateOfBirth": "1991-02-24",
                   "Endpoint": "patient/{{patientId}}",
                   "statusCode": 200,
                   "file": "Hypo Thyroid-Report.pdf"
@@ -1122,12 +1143,12 @@
                   "p_DateOfBirth": "1985-06-28",
                   "Endpoint": "patient/newReports/{{patientId}}",
                   "statusCode": 400,
-                  "file": "DiabeticReport.pdf",
                   "Weight": 60.5,
                   "Height": 166.5,
                   "Temperature": 37.9,
                   "SP": 1,
-                  "DP": 2
+                  "DP": 2,
+                  "file": "DiabeticReport.pdf"
                },
                {
                   "p_FirstName": "PatientEight",
@@ -1140,58 +1161,22 @@
                   "p_DateOfBirth": "1985-06-28",
                   "Endpoint": "patient/newReports/{{patientId}}",
                   "statusCode": 400,
-                  "file": "",
                   "Weight": 60.5,
                   "Height": 166.5,
                   "Temperature": 37.9,
                   "SP": 1,
-                  "DP": 2
-               },
-               {
-                  "p_FirstName": "PatientEight",
-                  "p_Lastname": "PatientEightLastName",
-                  "p_ContactNumber": "6863992449",
-                  "p_Email": "eighthPatientOnline@yahoo.com",
-                  "p_Allergy": "SOY",
-                  "p_FoodPreferences": "as",
-                  "p_CuisineCatergory": "asas",
-                  "p_DateOfBirth": "1985-06-28",
-                  "Endpoint": "patient/newReports/{{patientId}}",
-                  "statusCode": 400,
-                  "file": "DiabeticReport.pdf",
-                  "Weight": 60.5,
-                  "Height": 166.5,
-                  "Temperature": 37.9,
-                  "SP": 1,
-                  "DP": 2
-               },
-               {
-                  "p_FirstName": "",
-                  "p_Lastname": "",
-                  "p_ContactNumber": "",
-                  "p_Email": "",
-                  "p_Allergy": "",
-                  "p_FoodPreferences": "",
-                  "p_CuisineCatergory": "", 
-                  "p_DateOfBirth": "",
-                  "Endpoint": "patient/newReports/{{patientId}}",
-                  "statusCode": 400,
-                  "file": "DiabeticReport.pdf",
-                  "Weight": 60.5,
-                  "Height": 166.5,
-                  "Temperature": 37.9,
-                  "SP": 1,
-                  "DP": 2
+                  "DP": 2,
+                  "file": ""
                },
                {
                   "Endpoint": "patient/newReports/{{patientId}}",
                   "statusCode": 400,
-                  "file": "DiabeticReport.pdf",
                   "Weight": 60.5,
                   "Height": 166.5,
                   "Temperature": 37.9,
                   "SP": 1,
-                  "DP": 2
+                  "DP": 2,
+                  "file": "DiabeticReport.pdf"
                },
                {
                   "p_FirstName": "PatientEight",
@@ -1204,12 +1189,12 @@
                   "p_DateOfBirth": "1985-06-28",
                   "Endpoint": "patient/newReports{{patientId}}",
                   "statusCode": 400,
-                  "file": "DiabeticReport.pdf",
                   "Weight": 60.5,
                   "Height": 166.5,
                   "Temperature": 37.9,
                   "SP": 1,
-                  "DP": 2
+                  "DP": 2,
+                  "file": "DiabeticReport.pdf"
                },
                {
                   "p_FirstName": "PatientEight",
@@ -1222,12 +1207,12 @@
                   "p_DateOfBirth": "1985-06-28",
                   "Endpoint": "patient/newReports/{{InvalidPatient_Id}}",
                   "statusCode": 404,
-                  "file": "DiabeticReport.pdf",
                   "Weight": 60.5,
                   "Height": 166.5,
                   "Temperature": 37.9,
                   "SP": 1,
-                  "DP": 2
+                  "DP": 2,
+                  "file": "DiabeticReport.pdf"
                },
                {
                   "p_FirstName": "PatientEight",
@@ -1253,12 +1238,12 @@
                   "p_DateOfBirth": "1985-06-28",
                   "Endpoint": "patient/newReports/{{patientId}}",
                   "statusCode": 200,
-                  "file": "DiabeticReport.pdf",
                   "Weight": 60.5,
                   "Height": 166.5,
                   "Temperature": 37.9,
                   "SP": 1,
-                  "DP": 2
+                  "DP": 2,
+                  "file": "DiabeticReport.pdf"
                }
             ]
          },
