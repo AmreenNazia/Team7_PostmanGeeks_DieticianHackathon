@@ -2189,7 +2189,7 @@
 						},
 						"method": "DELETE",
 						"header": [],
-						"url": "{{BaseURL}}{{Endpoint}}"
+						"url": "{{BaseURL}}patient/2201"
 					},
 					"response": []
 				}
