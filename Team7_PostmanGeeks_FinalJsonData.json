@@ -318,10 +318,10 @@
                   "statusCode": 404
                },
                {
-                  "ContactNumber": "3121950878",
-                  "DateOfBirth": "1987-07-06T18:14:08.570Z",
+                  "ContactNumber": "7891950878",
+                  "DateOfBirth": "1986-02-06T18:14:08.570Z",
                   "Education": "ABDS",
-                  "Email": "mno@gmail.com",
+                  "Email": "jamesbond123@gmail.com",
                   "Firstname": "James",
                   "HospitalCity": "Bond",
                   "HospitalName": "Hackensack",
@@ -332,10 +332,10 @@
                   "statusCode": 201
                },
                {
-               "ContactNumber": "9866868820",
-                  "DateOfBirth": "1992-07-06T18:14:08.570Z",
+               "ContactNumber": "9861234420",
+                  "DateOfBirth": "1985-09-06T18:14:08.570Z",
                   "Education": "ABDS",
-                  "Email": "po@gmail.com",
+                  "Email": "jersey1245@gmail.com",
                   "Firstname": "Mchandu",
                   "HospitalCity": "jersey",
                   "HospitalName": "Hackensack",
@@ -810,32 +810,32 @@
                   "file": ""
                },
                {
-                  "p_FirstName": "Joe",
-                  "p_Lastname": "lsambu",
-                  "p_ContactNumber": "8908664985",
-                  "p_Email": "www@yahoo.com",
+                  "p_FirstName": "James",
+                  "p_Lastname": "leo",
+                  "p_ContactNumber": "7123664985",
+                  "p_Email": "leojame234@yahoo.com",
                   "p_Allergy": "ALMOND",
                   "p_FoodPreferences": "Vegetarian",
                   "p_CuisineCatergory": "South Indian",
-                  "p_DateOfBirth": "1993-07-20",
+                  "p_DateOfBirth": "1986-07-25",
                   "Endpoint": "patient",
                   "statusCode": 201,
-                  "file": "Diabetic and Hemogram Test_Thyrocare lab01.pdf",
-                  "patientid01":"patientid_01"
+                  "file": "Diabetic_Report.pdf"
+                  
                },
                {
                   "p_FirstName": "Jo",
                   "p_Lastname": "Doc",
-                  "p_ContactNumber": "9991231994",
-                  "p_Email": "kk@yahoo.com",
+                  "p_ContactNumber": "9291281994",
+                  "p_Email": "jodoc45@yahoo.com",
                   "p_Allergy": "ALMOND",
                   "p_FoodPreferences": "Vegetarian",
                   "p_CuisineCatergory": "South Indian",
-                  "p_DateOfBirth": "2002-06-20",
+                  "p_DateOfBirth": "1987-09-27",
                   "Endpoint": "patient",
                   "statusCode": 201,
-                  "file": "Diabetic and Hemogram Test_Thyrocare lab01.pdf",
-                  "patientid02":"patientid_02"
+                  "file": "Diabetic_Report.pdf"
+                  
                }
             ]
          },
@@ -1117,15 +1117,15 @@
                {
                   "updateFirstName": "patientDeb",
                   "updateLastName": "Team7",
-                  "updateContactNumber": "5994987783",
-                  "updateEmail": "pp@gmail.com",
+                  "updateContactNumber": "4594987783",
+                  "updateEmail": "teampatient145@gmail.com",
                   "updateAllergy": "Soy",
                   "updateFoodPreference": "Vegan",
                   "updateCuisineCategory": "indian",
-                  "updateDateOfBirth": "1991-02-24",
+                  "updateDateOfBirth": "1981-02-24",
                   "Endpoint": "patient/{{patientId}}",
                   "statusCode": 200,
-                  "file": "Hypo Thyroid-Report.pdf"
+                  "file": "Diabetic_Report.pdf"
                }
             ]
          },
@@ -1225,7 +1225,7 @@
                   "p_DateOfBirth": "1985-06-28",
                   "Endpoint": "patient/newReports/{{patientId}}",
                   "statusCode": 200,
-                  "file": "DiabeticReport.pdf"
+                  "file": "Diabetic_Report.pdf"
                },
                {
                   "p_FirstName": "PatientEight",
@@ -1243,7 +1243,7 @@
                   "Temperature": 37.9,
                   "SP": 1,
                   "DP": 2,
-                  "file": "DiabeticReport.pdf"
+                  "file": "Diabetic_Report.pdf"
                }
             ]
          },
