@@ -1044,8 +1044,10 @@
 							"script": {
 								"id": "10786756-4226-4c02-9dd2-6291d5c5564c",
 								"exec": [
-									"const reusableValidations = pm.collectionVariables.get(\"reusableValidation\");",
-									"reusableValidations.HeaderTest();",
+									"const HeaderTest = eval(pm.collectionVariables.get(\"HeaderTest\"));",
+									"const StatusCode = eval(pm.collectionVariables.get(\"StatusCode\"));",
+									"HeaderTest();  // Run the header validation",
+									"StatusCode();",
 									"// reusableValidation.StatusCode();",
 									"",
 									"// const response = pm.response.json();",
@@ -1112,7 +1114,7 @@
 								},
 								{
 									"key": "patientInfo",
-									"value": "{ \n\"FirstName\": \"po\",\n\"LastName\": \"qwr\",\n\"ContactNumber\": \"6760569576\",\n\"Email\": \"abc017@gmail.com\",\n\"Allergy\": \"Soy\",\n\"FoodPreference\": \"Vegan\",\n\"CuisineCategory\":\"Indian\",\n\"DateOfBirth\": \"1997-02-14\"\n}\n",
+									"value": "{ \n\"FirstName\": \"po\",\n\"LastName\": \"qwr\",\n\"ContactNumber\": \"5760569576\",\n\"Email\": \"abc018@gmail.com\",\n\"Allergy\": \"Soy\",\n\"FoodPreference\": \"Vegan\",\n\"CuisineCategory\":\"Indian\",\n\"DateOfBirth\": \"1997-02-14\"\n}\n",
 									"type": "text",
 									"contentType": ""
 								}
@@ -2386,7 +2388,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "e0e770d7-3beb-4bf6-8530-187d48d69b82",
+				"id": "67b6849c-72e4-4f23-a97c-a589af21c3b4",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -2421,7 +2423,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "b61d32dd-1ce1-433d-89b6-624a3989d322",
+				"id": "f755ab09-1c5d-4794-a9fc-a922c51bd144",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -2444,14 +2446,16 @@
 					"    },",
 					"StatusCode:function(){",
 					"",
-					"    pm.test(\"Status code is 200\", function () {",
+					"    pm.test(\"Status code is 201\", function () {",
 					"        pm.response.to.have.status(201);",
 					"    });",
 					"}",
 					"",
 					"",
 					"};",
-					"pm.collectionVariables.set(\"reusableValidation\",reusableValidations);",
+					"pm.collectionVariables.set(\"HeaderTest\", reusableValidations.HeaderTest.toString());",
+					"pm.collectionVariables.set(\"HeaderTestforDelete\", reusableValidations.HeaderTestforDelete.toString());",
+					"pm.collectionVariables.set(\"StatusCode\", reusableValidations.StatusCode.toString());",
 					"",
 					"",
 					""
@@ -2466,6 +2470,18 @@
 		},
 		{
 			"key": "reusableValidation",
+			"value": ""
+		},
+		{
+			"key": "HeaderTest",
+			"value": ""
+		},
+		{
+			"key": "HeaderTestforDelete",
+			"value": ""
+		},
+		{
+			"key": "StatusCode",
 			"value": ""
 		}
 	]
