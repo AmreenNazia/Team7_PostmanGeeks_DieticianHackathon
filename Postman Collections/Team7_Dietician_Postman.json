@@ -1044,7 +1044,7 @@
 							"script": {
 								"id": "10786756-4226-4c02-9dd2-6291d5c5564c",
 								"exec": [
-									"const reusableValidations = pm.collectionVariables.get(\"reusableValidations\");",
+									"const reusableValidations = pm.collectionVariables.get(\"reusableValidation\");",
 									"reusableValidations.HeaderTest();",
 									"// reusableValidation.StatusCode();",
 									"",
@@ -1112,7 +1112,7 @@
 								},
 								{
 									"key": "patientInfo",
-									"value": "{ \n\"FirstName\": \"po\",\n\"LastName\": \"qwr\",\n\"ContactNumber\": \"7760569576\",\n\"Email\": \"abc014@gmail.com\",\n\"Allergy\": \"Soy\",\n\"FoodPreference\": \"Vegan\",\n\"CuisineCategory\":\"Indian\",\n\"DateOfBirth\": \"1997-02-14\"\n}\n",
+									"value": "{ \n\"FirstName\": \"po\",\n\"LastName\": \"qwr\",\n\"ContactNumber\": \"6760569576\",\n\"Email\": \"abc017@gmail.com\",\n\"Allergy\": \"Soy\",\n\"FoodPreference\": \"Vegan\",\n\"CuisineCategory\":\"Indian\",\n\"DateOfBirth\": \"1997-02-14\"\n}\n",
 									"type": "text",
 									"contentType": ""
 								}
@@ -1599,7 +1599,7 @@
 						},
 						"method": "DELETE",
 						"header": [],
-						"url": "{{BaseURL}}patient/7"
+						"url": "{{BaseURL}}patient/9"
 					},
 					"response": []
 				},
@@ -2386,7 +2386,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "541d1217-6087-4459-ac9a-47b6d4a914fd",
+				"id": "e0e770d7-3beb-4bf6-8530-187d48d69b82",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -2421,7 +2421,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "0a7ef58d-598d-45d5-a084-084d6dc33c5c",
+				"id": "b61d32dd-1ce1-433d-89b6-624a3989d322",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -2451,7 +2451,7 @@
 					"",
 					"",
 					"};",
-					"pm.collectionVariables.set(\"reusableValidations\",reusableValidations);",
+					"pm.collectionVariables.set(\"reusableValidation\",reusableValidations);",
 					"",
 					"",
 					""
@@ -2462,6 +2462,10 @@
 	"variable": [
 		{
 			"key": "reusableValidations",
+			"value": ""
+		},
+		{
+			"key": "reusableValidation",
 			"value": ""
 		}
 	]
