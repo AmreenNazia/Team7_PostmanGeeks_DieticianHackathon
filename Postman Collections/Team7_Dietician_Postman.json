@@ -1044,7 +1044,8 @@
 							"script": {
 								"id": "10786756-4226-4c02-9dd2-6291d5c5564c",
 								"exec": [
-									"const reusableValidations = pm.collectionVariables.get(\"reusableValidations\");",
+									"const reusableValidation = pm.collectionVariables.get(\"reusableValidations\");",
+									"reusableValidation.StatusCode();",
 									"",
 									"const response = pm.response.json();",
 									"pm.test(\"Validating Status Code\", () => {",
@@ -1110,7 +1111,7 @@
 								},
 								{
 									"key": "patientInfo",
-									"value": "{ \n\"FirstName\": \"posman\",\n\"LastName\": \"geqks\",\n\"ContactNumber\": \"8760509576\",\n\"Email\": \"abc80@gmail.com\",\n\"Allergy\": \"Soy\",\n\"FoodPreference\": \"Vegan\",\n\"CuisineCategory\":\"Indian\",\n\"DateOfBirth\": \"1997-02-14\"\n}\n\n\n",
+									"value": "{ \n\"FirstName\": \"posman\",\n\"LastName\": \"geqks\",\n\"ContactNumber\": 4460509576\",\n\"Email\": \"abc10@gmail.com\",\n\"Allergy\": \"Soy\",\n\"FoodPreference\": \"Vegan\",\n\"CuisineCategory\":\"Indian\",\n\"DateOfBirth\": \"1997-02-14\"\n}\n\n\n",
 									"type": "text",
 									"contentType": ""
 								}
@@ -2384,7 +2385,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "049f20a5-b0b5-4a79-bdba-ccd2841b3cc4",
+				"id": "541d1217-6087-4459-ac9a-47b6d4a914fd",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -2419,7 +2420,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "a793967e-cce8-45e6-a657-9bd656ec1ae5",
+				"id": "0a7ef58d-598d-45d5-a084-084d6dc33c5c",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -2443,7 +2444,7 @@
 					"StatusCode:function(){",
 					"",
 					"    pm.test(\"Status code is 200\", function () {",
-					"        pm.response.to.have.status(200);",
+					"        pm.response.to.have.status(201);",
 					"    });",
 					"}",
 					"",
