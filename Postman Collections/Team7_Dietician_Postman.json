@@ -2388,7 +2388,7 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "67b6849c-72e4-4f23-a97c-a589af21c3b4",
+				"id": "b4c7258d-99ec-49df-bf91-7c76bbceed49",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -2423,7 +2423,7 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "f755ab09-1c5d-4794-a9fc-a922c51bd144",
+				"id": "2a9b82fa-c95c-4837-b076-c9723ffc021a",
 				"type": "text/javascript",
 				"packages": {},
 				"exec": [
@@ -2453,9 +2453,9 @@
 					"",
 					"",
 					"};",
-					"pm.collectionVariables.set(\"HeaderTest\", reusableValidations.HeaderTest.toString());",
-					"pm.collectionVariables.set(\"HeaderTestforDelete\", reusableValidations.HeaderTestforDelete.toString());",
-					"pm.collectionVariables.set(\"StatusCode\", reusableValidations.StatusCode.toString());",
+					"pm.collectionVariables.set(\"HeaderTest\", reusableValidations.HeaderTest());",
+					"pm.collectionVariables.set(\"HeaderTestforDelete\", reusableValidations.HeaderTestforDelete());",
+					"pm.collectionVariables.set(\"StatusCode\", reusableValidations.StatusCode());",
 					"",
 					"",
 					""
